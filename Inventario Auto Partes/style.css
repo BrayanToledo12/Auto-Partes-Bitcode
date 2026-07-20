@@ -1,0 +1,67 @@
+/* Reiniciar estilos */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Barra de navegación */
+
+.barra_de_navegacion {
+    width: 100%;
+    background-color: #000;
+
+}
+
+/* Menú */
+
+nav {
+    border-bottom: 2px solid black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: white;
+}
+
+/* Logo */
+
+.logo {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+/* Enlaces */
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+/* Contenido */
+
+.contenido {
+    text-align: center;
+    padding: 60px;
+}
+
+.contenido h1 {
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenido p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
